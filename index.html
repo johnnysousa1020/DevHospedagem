@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>DevHospedagem</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#hospedagem">Hospedagem</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <button class="btn">Fazer Hospedagem</button>
+    </header>
+
+    <section id="inicio" class="hero-principal">
+        <article class="hero">
+            <div>
+                <h1>Venha conhece o melhor lugar para passar as ferias</h1>
+                <p>No Hotel DevHospedagem você ficar mais perto da praia, restaurante e mercado, além de ser bem localizada</p>
+                <nav class="hero-buttons">
+                    <button class="btn">Saiba mais</button>
+                    <button class="btn btn-clain">Hospedagem</button>
+                </nav>
+                <ul class="hero-lista">
+                    <li><strong>4.7</strong>Avaliação ⭐</li>
+                    <li><strong>20min</strong>Da praia</li>
+                    <li><strong>5min</strong>Do mercado</li>
+                </ul>
+            </div>
+
+            <img style="width: 500px;" src="./img/hero-lego.jpg" alt="hotel">
+        </article>
+    </section>
+
+    <section class="hospedagem" id="hospedagem">
+        <h2>Hospedagem</h2>
+        <p>As melhores Hospedagem disponivel aqui para você</p>
+
+        <ul class="menu-grid">
+            <li>
+                <img src="./img/fachada.jpg" alt="hotel">
+                <h3>Aethereal Resort & SPA</h3>
+                <p>Este hotel de luxo possui span e fica perto da praia</p>
+                <a class="btn" href="#">Resevar</a>
+            </li>
+            <li>
+                <img src="./img/fachada2.jpg" alt="hotel">
+                <h3>Celestia Coast Resort</h3>
+                <p>Este hotel de luxo no litoral possui um spa e vista para praia</p>
+                <a class="btn" href="#">Resevar</a>
+            </li>
+            <li>
+                <img style="width: 400px;" src="./img/fachada3.jpg" alt="hotel">
+                <h3>Aurum Hotel & Suites</h3>
+                <p>Se você estiver viajando a negócios ou lazer, este hotel e o ideal para você</p>
+                <a class="btn" href="#">Resevar</a>
+            </li>
+            <li>
+                <img src="./img/fachada4.jpg" alt="hotel">
+                <h3>The Eclipse Residences</h3>
+                <p>Este hotel e o ideal para você passar suas ferias em familia</p>
+                <a class="btn" href="#">Resevar</a>
+            </li>
+            <li>
+                <img src="./img/fachada5.jpg" alt="hotel">
+                <h3>Avant-Garde Hotel & Suites</h3>
+                <p>Este hotel tem café da manhã de cortesia e um traslado ida/volta do aeroporto.</p>
+                <a class="btn" href="#">Resevar</a>
+            </li>
+            <li>
+                <img src="./img/fachada6.jpg" alt="hotel">
+                <h3>Aurum Hotel & Suites</h3>
+                <p>Hotel fica a apenas 10 minutos a pé de atrações como Praia, Parque de diversões e zoológico.</p>
+                <a class="btn" href="#">Resevar</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="cards-row">
+        <h2>O que você pode encontrar na sua hospedagem</h2>
+        <button class="arrow left" onclick="scrollCarouselLeft()">⇐</button>
+
+        <div class="carousel" id="carousel">
+        <article class="card">
+            <img src="./img/fachada.jpg" alt="fachada">
+            <div class="card-label">Fachada</div>
+        </article>
+        <article class="card">
+            <img src="./img/hidromassagem2.jpg" alt="hidromassagem">
+            <div class="card-label">Hidromassagem</div>
+        </article>
+        <article class="card">
+            <img src="./img/restaurante2.jpg" alt="restaurante">
+            <div class="card-label">Restaurante</div>
+        </article>
+        <article class="card">
+            <img src="./img/piscina.jpg" alt="piscina">
+            <div class="card-label">Piscina</div>
+        </article>
+        <article class="card">
+            <img src="./img/banheiro.jpg" alt="banheiro">
+            <div class="card-label">Banheiro</div>
+        </article>
+        <article class="card">
+            <img src="./img/quarto-suite-hidro.jpg" alt="suite">
+            <div class="card-label">Suite</div>
+        </article>
+        <article class="card">
+            <img src="./img/quarto-suite.jpg" alt="Quarto">
+            <div class="card-label">Quarto suite</div>
+        </article>
+        <article class="card">
+            <img src="./img/quarto-simples.jpg" alt="Quarto">
+            <div class="card-label">Quarto</div>
+        </article>
+        <article class="card">
+            <img src="./img/cafe-da-manha2.jpg" alt="cafe da manha">
+            <div class="card-label">Café da Manha</div>
+        </article>
+        <article class="card">
+            <img src="./img/recepcao2.jpg" alt="recepcao">
+            <div class="card-label">Recepção</div>
+        </article>
+        <article class="card">
+            <img src="./img/academia2.jpg" alt="academia">
+            <div class="card-label">Academia</div>
+        </article>
+        <article class="card">
+            <img src="./img/spa2.jpg" alt="spa">
+            <div class="card-label">SPA</div>
+        </article>
+        <article class="card">
+            <img src="./img/estacionamento.jpg" alt="estacionamento">
+            <div class="card-label">Estacionamento</div>
+        </article>
+        </div>
+
+        <button class="arrow right" onclick="scrollCarouselRight()">⇒</button>
+    </section>
+
+    <section class="rooms-section">
+        <h2>Nossos Quartos</h2>
+
+        <div class="rooms-container">
+
+            <div class="rooms-card">
+                <img src="./img/quarto-simples-2.jpg" alt="quarto">
+                <h3>Quarto Standard</h3>
+                <p>A partir de R$ 249/noite</p>
+                <button>Ver detalhes</button>
+            </div>
+
+            <div class="rooms-card">
+                <img src="./img/quarto-familia.jpg" alt="quarto">
+                <h3>Quarto Familia</h3>
+                <p>A partir de R$ 399/noite</p>
+                <button>Ver detalhes</button>
+            </div>
+
+            <div class="rooms-card">
+                <img src="./img/quarto-suite-2.jpg" alt="quarto">
+                <h3>Quarto Suíte</h3>
+                <p>A partir de R$ 499/noite</p>
+                <button>Ver detalhes</button>
+            </div>
+
+            <div class="rooms-card">
+                <img src="./img/quarto-suite-hidro.jpg" alt="quarto">
+                <h3>Suíte Master com Hidro</h3>
+                <p>A partir de R$ 599/noite</p>
+                <button>Ver detalhes</button>
+            </div>
+
+            <div class="rooms-card">
+                <img src="./img/quarto-suite-spa.jpg" alt="quarto">
+                <h3>Suíte com SPA</h3>
+                <p>A partir de R$ 483/noite</p>
+                <button>Ver detalhes</button>
+            </div>
+
+            <div class="rooms-card">
+                <img src="./img/quarto-com-sala.jpg" alt="quarto">
+                <h3>Suíte Simples</h3>
+                <p>A partir de R$ 350/noite</p>
+                <button>Ver detalhes</button>
+            </div>
+
+            <div class="rooms-card">
+                <img src="./img/quarto-simples3.jpg" alt="quarto">
+                <h3>Quarto Simples</h3>
+                <p>A partir de R$ 230/noite</p>
+                <button>Ver detalhes</button>
+            </div>
+
+            <div class="rooms-card">
+                <img src="./img/quarto-suite-varanda.jpg" alt="quarto">
+                <h3>Suíte Simples</h3>
+                <p>A partir de R$ 300/noite</p>
+                <button>Ver detalhes</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <img src="./img/quarto-simples.jpg" alt="hotel">
+        <article>
+            <h2>Como reserva</h2>
+            <p>Quer saber como Resevar os melhores hoteis para você e sua familia, aqui é o melhor lugar</p>
+            <ul>
+                <li>🏩 <strong>Reservar Hoteis</strong> - Com estacionamento incluso</li>
+                <li>🏖️ <strong>20min da Praia</strong> - Carro até 7 minutos</li>
+                <li>💳 <strong>Pagamento Fácil</strong> - PIX, cartão ou dinheiro</li>
+            </ul>
+        </article>
+    </section>
+
+    <section class="sobre-section" id="sobre">
+        <div class="sobre-container">
+            <div class="sobre-img">
+                <img src="./img/pricipal.jpg" alt="hotel">
+            </div>
+
+            <div class="sobre-text">
+            <h2>Sobre Nós</h2>
+            <p>
+                Bem-vindo ao <strong>Hotel DevHospedagem</strong>, um lugar onde conforto, elegancia 
+                e uma experiencia inesquecível se encontram. Nosso objetivo é oferecer aos hóspedes
+                um ambiente acolhedor, moderno e sofisticado, perfeito para quem busca descanso, lazer
+                ou viagens a trabalho
+            </p>
+
+            <p>
+                Com acomodações espaçosas, serviço de alta qualidade e uma localização privilegiada,
+                garantimos que cada momento da sua estadia seja especial.
+            </p>
+
+            <ul>
+                <li>✔️ Quartos e suites luxuosas</li>
+                <li>✔️ Vista incrível para o mar</li>
+                <li>✔️ Piscina, spa e restaurante próprio</li>
+                <li>✔️ Atendimenton 24h</li>
+                <li>✔️ Ambiente confortável e seguro</li>
+            </ul>
+
+            <p>
+                No <strong>Hotel DevHospedagem</strong>, trabalhamos diariamente para proporcionar
+                a melhor experiencia possível para você e sua familia.
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Preparado para Viajar</h2>
+        <p>Faça sua reserva agora mesmo, e vem conhecer o mundo</p>
+        <button class="btn btn-clains">Reservar agora</button>
+    </section>
+
+    <footer class="footer" id="contato">
+        <div class="footer-content">
+            <h3>Hotel DevHospedagem</h3>
+            <p>Conforto e qualidade para sua melhor experiencia.</p>
+            <div class="footer-info">
+                <p><strong>Telefone:</strong> (11) 99999-9999</p>
+                <p><strong>Email:</strong> contato@hoteldevhospedagem.com</p>
+                <p><strong>Endereço</strong> Av. Pricipal, 123 São Paulo</p>
+
+                <p class="copyright">2025 Hotel DevHospedagem - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
