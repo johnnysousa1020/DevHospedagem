@@ -49,3 +49,13 @@ DevHospedagem/
 
 Desenvolvido por **Johnny Sousa**
 Projeto de estudo em Front End
+
+---
+
+## 🌐 Projeto publicado em: 
+
+- 🔗 **Versão online (Hostinger):**
+ https://shopminded.shop/
+
+- 🔗 **Versão via GitHub Pages:**
+ https://johnnysousa1020.github.io/DevHospedagem/
