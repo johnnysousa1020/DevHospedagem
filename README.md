@@ -11,10 +11,10 @@ boas práticas de Front End.
 Este projeto foi criado com o objetivo de praticar e 
 demonstrat conhecimentos em:
 
--Estruturação de páginas com HTML
--Estilização responsiva com CSS
--Interatividade básica com JavaScript
--Organização de arquivos em um projeto Front End
+- **Estruturação de páginas com HTML**
+- **Estilização responsiva com CSS**
+- **Interatividade básica com JavaScript**
+- **Organização de arquivos em um projeto Front End**
 
 ---
 
